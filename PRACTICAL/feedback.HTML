@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Feedback</title>
+   
+        <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div id="header">
+        <h1 align="center">
+          STUDENTHUB 
+        </h1>
+    </div>
+    <br>
+
+    <div align="center">
+    <tr>
+        <a href="home.HTML"><td><button>Home</button></td></a> 
+        <a href="profile.HTML"><td><button>Profile</button></td></a> 
+        <a href="events.HTML"><td><button>Events</button></td></a>
+        <a href="Attendance.HTML"><td><button>Attendance</button></td></a>
+        <a href="result.HTML"><td><button>Result</button></td></a>
+        <a href="timetable.html"><td><button>TimeTable</button></td></a>
+            <a href="feedback.HTML"><td><button>FeedBack</button></td></a>
+
+    </tr>
+    </div>
+    <br>
+    <hr>
+    <br>
+
+    <div align="center">
+        <form action="home.HTML" method="get" class="card">
+            <h2 align="center"><u>STUDENT FEEDBACK</u></h2>
+            <br>
+            
+            <table class="form-table" align="center">
+                <tr>
+                    <td>Full Name :</td>
+                    <td><input type="text" name="fullname" placeholder="Enter your full name" required></td>
+                </tr>
+                <tr>
+                    <td>Enrollment No. :</td>
+                    <td><input type="text" name="enrollment" placeholder="e.g. 25CE047" required></td>
+                </tr>
+                <tr>
+                    <td>Email :</td>
+                    <td><input type="email" name="email" placeholder="abc@gmail.com" required></td>
+                </tr>
+                <tr>
+                    <td>Department :</td>
+                    <td><input type="text" name="department" placeholder="e.g. CE-CSPIT" required></td>
+                </tr>
+                <tr>
+                    <td>Semester :</td>
+                    <td>
+                        <select name="semester">
+                            <option value="1">Semester 1</option>
+                            <option value="2">Semester 2</option>
+                            <option value="3">Semester 3</option>
+                            <option value="4">Semester 4</option>
+                            <option value="5">Semester 5</option>
+                            <option value="6">Semester 6</option>
+                            <option value="7">Semester 7</option>
+                            <option value="8">Semester 8</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Feedback Type :</td>
+                    <td>
+                        <select name="feedback_type">
+                            <option value="suggestion">Suggestion</option>
+                            <option value="bug">Bug Report</option>
+                            <option value="complaint">Complaint</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Rate StudentHub :</td>
+                    <td>
+                        <select name="rating">
+                            <option value="5">★ ★ ★ ★ ★</option>
+                            <option value="4" selected>★ ★ ★ ★ ☆</option>
+                            <option value="3">★ ★ ★ ☆ ☆</option>
+                            <option value="2">★ ★ ☆ ☆ ☆</option>
+                            <option value="1">★ ☆ ☆ ☆ ☆</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">Recommend Website? :</td>
+                    <td>
+                        <input type="radio" name="recommend" value="yes" id="rec_yes"><label for="rec_yes"> Yes</label><br>
+                        <input type="radio" name="recommend" value="no" id="rec_no"><label for="rec_no"> No</label><br>
+                        <input type="radio" name="recommend" value="maybe" id="rec_maybe"><label for="rec_maybe"> Maybe</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">Your Feedback :</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <textarea name="feedback_content" rows="6" cols="55" placeholder="Write your thoughts here..." required></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Upload Screenshot :</td>
+                    <td><input type="file" name="screenshot" accept="image/*"></td>
+                </tr>
+            </table>
+            
+            <br><br>
+            <div align="center">
+                <button type="submit">Submit Feedback</button>
+                <button type="reset">Reset</button>
+            </div>
+            <br>
+        </form>
+
+        <br>
+        <a href="home.HTML"><button type="button">BACK</button></a>
+        <br><br>
+    </div>
+    <hr>
+                 <footer align="center">
+            <h4>@ 2026 jaimin khambhaliya</h4>
+
+</body>
+</html>
