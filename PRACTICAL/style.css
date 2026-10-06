@@ -28,6 +28,10 @@
             margin-bottom: 20px;
             background-color: #eaf4fc;
             width: 500px;
+            box-shadow: 3px 3px 3px 3px  rgb(97, 121, 124);         
+
+
+
         }
         
         .form-table td {

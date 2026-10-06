@@ -1,91 +1,172 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
 
-        <link rel="stylesheet" href="style.css">
+    <title>StudentHub - Event Participation</title>
 
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <div id="header">
         <h1 align="center">
-          STUDENTHUB 
+            STUDENTHUB
         </h1>
     </div>
 
+
+    
     <div class="header3">
-    <tr>
-        
-       <a href="home.HTML"><td><button>Home</button></td></a> 
-        <a href="profile.HTML"><td><button>Profile</button></td></a> 
-        <a href="events.HTML"><td><button>Events</button></td></a>
-        <a href="Attendance.HTML"><td><button>Attendance</button></td></a>
-        <a href="result.HTML"><td><button>Result</button></td></a>
-        <a href="timetable.html"><td><button>TimeTable</button></td></a>
-        <a href="feedback.HTML"><td><button>FeedBack</button></td></a>
 
+        <a href="home.HTML"><button type="button">Home</button></a>
+        <a href="profile.HTML"><button type="button">Profile</button></a>
+        <a href="events.HTML"><button type="button">Events</button></a>
+        <a href="Attendance.HTML"><button type="button">Attendance</button></a>
+        <a href="result.HTML"><button type="button">Result</button></a>
+        <a href="timetable.html"><button type="button">TimeTable</button></a>
+        <a href="feedback.HTML"><button type="button">FeedBack</button></a>
 
-    </tr>
     </div>
+
     <hr>
 
-    <br></br>
-        <br></br>
+    <br><br>
 
+
+    
     <div align="center">
-        
-        <form align="center" class="card">
 
-        Name:<input type="text"
-       name="username"
-       placeholder="Enter your name"
-       pattern="[A-Za-z ]+"
-       title="Only alphabets are allowed"
-       required>
-       <br></br>
+        <form id="eventForm" class="card">
 
-       ID:<input type="text"
-        name="id"
-        placeholder="Enter your id number" 
-        pattern="[0-9]{2}[A-Z]{2}[0-9]{3}"
-         required>
-         <br></br>
-        Email:<input type="email" name="'email" placeholder="abc@gmail.com" required>
+            <h2>Event Participation</h2>
 
-        <br></br>
+           
+            <label for="username">Name:</label>
 
-        phone number:<input type="number" name="number" placeholder="Enter your phone number">
-        <br></br>
+            <input
+                type="text"
+                id="username"
+                name="username"
+                placeholder="Enter your name"
+                pattern="[A-Za-z ]+"
+                title="Only alphabets and spaces are allowed"
+                
+            >
+
+            <small id="nameError"></small>
+
+            <br><br>
 
 
-
-        Select Event:<select name="Events">
             
-           <option value="Competition"> Coding Competition</option>
-            <option value="Sports Day">Sports Day</option>
+            <label for="studentId">ID:</label>
 
-         </select>
-         <br></br>
-        <br></br>
+            <input
+                type="text"
+                id="studentId"
+                name="id"
+                placeholder="Enter your ID number"
+                pattern="[0-9]{2}[A-Z]{2}[0-9]{3}"
+                title="Format: 25CE040"
+                
+            >
 
-                 <a href="home.HTML"><button type="submit">submit</button></a>
+            <small id="idError"></small>
 
+            <br><br>
+
+
+           
+            <label for="email">Email:</label>
+
+            <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="abc@gmail.com"
+                
+            >
+
+            <small id="emailError"></small>
+
+            <br><br>
+
+
+          
+            <label for="phone">Phone Number:</label>
+
+            <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="Enter your phone number"
+                pattern="[0-9]{10}"
+                title="Enter a 10 digit phone number"
+                
+            >
+            
+
+            <small id="phoneError"></small>
+
+            <br><br>
+
+
+           
+            <label for="event">Select Event:</label>
+
+            <select id="event" name="event" >
+
+                <option value="">Select Event</option>
+
+                <option value="Competition">
+                    Coding Competition
+                </option>
+
+                <option value="Sports Day">
+                    Sports Day
+                </option>
+
+            </select>
+
+            <small id="eventError"></small>
+
+            <br><br>
+
+
+            
+            <button type="submit">
+                Submit
+            </button>
 
         </form>
-        <br></br>
-        <br></br>
-        <br></br>
 
 
-                <a href="home.HTML"><button type="button">BACK</button></a>
+        <br><br><br>
 
+
+        <a href="home.HTML">
+            <button type="button">BACK</button>
+        </a>
 
     </div>
+
+
     <hr>
-                 <footer align="center">
-            <h4>@ 2026 jaimin khambhaliya</h4>
+
+
+    <footer align="center">
+        <h4>@ 2026 Jaimin Khambhaliya</h4>
+    </footer>
+
+
+    <script src="register.js"></script>
+
 </body>
+
 </html>
+

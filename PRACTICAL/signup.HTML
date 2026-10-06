@@ -4,69 +4,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-   
-   
-        <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
-   
 
     <div id="header">
         <h1 align="center">
-          STUDENTHUB 
+            STUDENTHUB
         </h1>
-       
     </div>
+
     <br></br>
-     <br></br>
+    <br></br>
 
     <div align="center">
-   <form action="home.HTML" method="get" align="center" class="card">
-    <br></br>
-    <u><h3>Student Login</h3></u>
 
-         <br></br>
-        <br></br>
+        <form action="home.HTML" method="get" align="center" class="card" id="signupForm">
 
+            <br></br>
 
-    <table>
+            <u><h3>Student Signup</h3></u>
 
-         Name : <input type="text"
-       name="username"
-       placeholder="Enter your name"
-       pattern="[A-Za-z ]+"
-       title="Only alphabets are allowed"
-       required>
-       <br></br>
+            <br></br>
+            <br></br>
 
+            <table>
 
-       Email : <input type="email" placeholder="enter your email" required>
-       <br></br>
-          
+                Name :
+                <input
+                    type="text"
+                    id="username"
+                    name="username"
+                    placeholder="Enter your name"
+                    pattern="[A-Za-z ]+"
+                    title="Only alphabets are allowed"
+                    
+                >
+                <small id="usernameError"></small>
 
-        <label>Password : </label>
-        <input type="password"
-               name="password"
-               placeholder="Enter your password"
-               required
-               minlength="8">
-        <br><br>
-        <br><br>
-        
-
-        <input type="submit" value="signup" style="width: 250px;">
-        </div>
-        </form>
-        
-        <br></br>
                 <br></br>
-        <br></br>
-        
-        
 
-       <div align="left"><a href="login.HTML"><button type="button">BACK</button></a></div>
-   
-   
+                Email :
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="enter your email"
+                    
+                >
+                <small id="emailError"></small>
+
+                <br></br>
+
+                <label>Password : </label>
+
+                <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    placeholder="Enter your password"
+                    minlength="8"
+                    
+                >
+                <small id="passwordError"></small>
+
+                <br><br>
+                <br><br>
+
+                <input type="submit" value="signup" style="width: 250px;">
+
+            </table>
+
+        </form>
+
+    </div>
+
+    <br></br>
+    <br></br>
+    <br></br>
+
+    <div align="left">
+        <a href="login.HTML">
+            <button type="button">BACK</button>
+        </a>
+    </div>
+
+    <script src="signup.js"></script>
+
 </body>
 </html>
