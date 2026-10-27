@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentHub Events</title>
+    <link rel="stylesheet" href="events.css">
+</head>
+
+<body>
+
+    
+    <div id="header">
+        <h1 align="center">STUDENTHUB</h1>
+    </div>
+
+    <br>
+
+    <div class="header3" align="center">
+        <a href="../home.HTML"><button type="button">Home</button></a>
+        <a href="../profile.HTML"><button type="button">Profile</button></a>
+        <a href="../events.HTML"><button type="button">Events</button></a>
+        <a href="../Attendance.HTML"><button type="button">Attendance</button></a>
+        <a href="../result.HTML"><button type="button">Result</button></a>
+        <a href="../timetable.html"><button type="button">TimeTable</button></a>
+        <a href="../feedback.HTML"><button type="button">FeedBack</button></a>
+    </div>
+
+    <hr>
+
+    <br>
+
+    <div align="center">
+        <h2>Events</h2>
+
+        <input
+            type="text"
+            id="searchEvent"
+            placeholder="Search event"
+        >
+
+        <select id="categoryFilter">
+            <option value="all">All Categories</option>
+            <option value="Technical">Technical</option>
+            <option value="Sports">Sports</option>
+            <option value="Cultural">Cultural</option>
+            <option value="Workshop">Workshop</option>
+            <option value="Academic">Academic</option>
+            <option value="Career">Career</option>
+        </select>
+
+        <select id="sortEvent">
+            <option value="default">Sort By</option>
+            <option value="nameAsc">Name A-Z</option>
+            <option value="nameDesc">Name Z-A</option>
+            <option value="dateAsc">Date Oldest-Newest</option>
+            <option value="dateDesc">Date Newest-Oldest</option>
+        </select>
+    </div>
+
+    <br>
+
+    <div id="loading" align="center">
+        Loading events...
+    </div>
+
+    <div id="error" align="center"></div>
+
+    <div id="eventsContainer"></div>
+
+    <br>
+
+    <div align="center">
+        <button type="button" id="previousBtn">Previous</button>
+
+        <span id="pageNumber">Page 1</span>
+
+        <button type="button" id="nextBtn">Next</button>
+    </div>
+
+    <br><br>
+
+    <div align="center">
+        <a href="../home.HTML">
+            <button type="button">BACK</button>
+        </a>
+    </div>
+
+    <hr>
+
+    <footer align="center">
+        <h4>@ 2026 Jaimin Khambhaliya</h4>
+    </footer>
+
+    <script src="events.js"></script>
+
+</body>
+</html>

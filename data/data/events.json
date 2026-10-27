@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "name": "Tech Fest",
+        "date": "2026-10-15",
+        "location": "CSPIT",
+        "category": "Technical"
+    },
+    {
+        "id": 2,
+        "name": "Sports Day",
+        "date": "2026-10-20",
+        "location": "CHARUSAT Ground",
+        "category": "Sports"
+    },
+    {
+        "id": 3,
+        "name": "Coding Competition",
+        "date": "2026-10-25",
+        "location": "Computer Lab",
+        "category": "Technical"
+    },
+    {
+        "id": 4,
+        "name": "Cultural Festival",
+        "date": "2026-11-02",
+        "location": "CHARUSAT Auditorium",
+        "category": "Cultural"
+    },
+    {
+        "id": 5,
+        "name": "Robotics Workshop",
+        "date": "2026-11-05",
+        "location": "CSPIT Lab",
+        "category": "Workshop"
+    },
+    {
+        "id": 6,
+        "name": "Web Development Workshop",
+        "date": "2026-11-10",
+        "location": "CSPIT Lab",
+        "category": "Workshop"
+    },
+    {
+        "id": 7,
+        "name": "Hackathon",
+        "date": "2026-11-15",
+        "location": "Innovation Center",
+        "category": "Technical"
+    },
+    {
+        "id": 8,
+        "name": "Photography Contest",
+        "date": "2026-11-18",
+        "location": "CHARUSAT Campus",
+        "category": "Cultural"
+    },
+    {
+        "id": 9,
+        "name": "Football Tournament",
+        "date": "2026-11-20",
+        "location": "CHARUSAT Ground",
+        "category": "Sports"
+    },
+    {
+        "id": 10,
+        "name": "AI Seminar",
+        "date": "2026-11-25",
+        "location": "Auditorium",
+        "category": "Technical"
+    },
+    {
+        "id": 11,
+        "name": "Quiz Competition",
+        "date": "2026-12-01",
+        "location": "CSPIT Hall",
+        "category": "Academic"
+    },
+    {
+        "id": 12,
+        "name": "Career Guidance",
+        "date": "2026-12-05",
+        "location": "Seminar Hall",
+        "category": "Career"
+    },
+    {
+        "id": 13,
+        "name": "Java Workshop",
+        "date": "2026-12-10",
+        "location": "Computer Lab",
+        "category": "Workshop"
+    },
+    {
+        "id": 14,
+        "name": "Annual Function",
+        "date": "2026-12-15",
+        "location": "CHARUSAT Auditorium",
+        "category": "Cultural"
+    },
+    {
+        "id": 15,
+        "name": "Project Exhibition",
+        "date": "2026-12-20",
+        "location": "CSPIT Exhibition Hall",
+        "category": "Academic"
+    }
+]

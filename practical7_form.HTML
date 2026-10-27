@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentHub - Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="header">
+        <h1 align="center">STUDENTHUB</h1>
+    </div>
+
+    <br>
+
+    <div align="center">
+        <a href="home.HTML"><button type="button">Home</button></a>
+        <a href="profile.HTML"><button type="button">Profile</button></a>
+        <a href="events.HTML"><button type="button">Events</button></a>
+        <a href="Attendance.HTML"><button type="button">Attendance</button></a>
+        <a href="result.HTML"><button type="button">Result</button></a>
+        <a href="timetable.html"><button type="button">TimeTable</button></a>
+        <a href="feedback.HTML"><button type="button">FeedBack</button></a>
+    </div>
+
+    <br>
+    <hr>
+    <br>
+
+    <div align="center">
+
+        <form action="practical7_process.php" method="POST" class="card" id="contactForm">
+
+            <h2 align="center"><u>Contact / Registration Form (Practical 7)</u></h2>
+
+            <br>
+
+            <table class="form-table" align="center">
+
+                <tr>
+                    <td><label for="fullname">Full Name :</label></td>
+                    <td>
+                        <input type="text" id="fullname" name="fullname" placeholder="Enter your full name">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="email">Email :</label></td>
+                    <td>
+                        <input type="email" id="email" name="email" placeholder="abc@gmail.com">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="phone">Phone :</label></td>
+                    <td>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter 10-digit number">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="course">Course :</label></td>
+                    <td>
+                        <select id="course" name="course">
+                            <option value="">Select Course</option>
+                            <option value="CE">Computer Engineering</option>
+                            <option value="IT">Information Technology</option>
+                            <option value="EC">Electronics & Communication</option>
+                            <option value="ME">Mechanical Engineering</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="message">Message :</label></td>
+                    <td>
+                        <textarea id="message" name="message" rows="4" cols="40" placeholder="Write your message here..."></textarea>
+                    </td>
+                </tr>
+
+            </table>
+
+            <br>
+
+            <div align="center">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+
+            <br>
+
+        </form>
+
+        <br>
+
+        <a href="practical7_records.php">
+            <button type="button">View Stored Records</button>
+        </a>
+
+        <br><br>
+
+        <a href="home.HTML">
+            <button type="button">BACK</button>
+        </a>
+
+        <br><br>
+
+    </div>
+
+    <hr>
+
+    <footer align="center">
+        <h4>@ 2026 Jaimin Khambhaliya</h4>
+    </footer>
+
+</body>
+</html>
